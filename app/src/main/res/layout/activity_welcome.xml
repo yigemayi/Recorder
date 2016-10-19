@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:id="@+id/activity_welcome_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/activity_welcome_bg"
+        />
+
+    <TextView
+        android:id="@+id/activity_welcome_enter"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_button_height"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/common_margin"
+        android:background="@drawable/common_button_bg"
+        android:gravity="center"
+        android:text="@string/activity_welcome_enter"
+        />
+
+
+</RelativeLayout>

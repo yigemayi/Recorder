@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<life.wy.a.recorder.home.drawer.DrawerMenu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/drawer_menu_about"
+        layout="@layout/activity_main_menu_item"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        />
+
+
+</life.wy.a.recorder.home.drawer.DrawerMenu>
